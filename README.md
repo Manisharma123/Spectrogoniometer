@@ -1,4 +1,7 @@
 This repository contains the laboratory dataset and supporting files used to analyse the effect of Mars-analog dust coatings on visible to shortwave infrared reflectance spectra of mineral powders. The main dataset is provided as a NetCDF file, which contains raw and processed bidirectional reflectance spectra measured under multiple illumination-viewing geometries for uncoated and dust-coated mineral samples.
+
 The dataset includes spectra for a suite of Mars-relevant minerals measured using a spectrogoniometer across the VIS–SWIR wavelength range. Each mineral was measured in three surface conditions: uncoated, lower dust coating, and higher dust coating. Measurements were collected across multiple incidence, emission, and azimuth angles to evaluate how optical geometry influences spectral contrast, absorption-band masking, and dust-related changes in reflectance.
+
 The NetCDF file includes both raw replicate spectra and processed reflectance spectra used for analysis. It also includes experimental dust-loading spectra, phase-angle information, and dust areal-density values for each mineral coating. These data allow users to reproduce the spectral analysis, examine wavelength-dependent dust attenuation, compare coated and uncoated spectra, and test geometry-dependent spectral behaviour.
+
 In addition to the NetCDF dataset, this repository includes photographs used by the analysis and plotting scripts. The repository also includes thermogravimetric analysis (TGA) data in CSV format for the MGS-1 dust analogue.
